@@ -2,7 +2,7 @@
 
 This is my Portfolio Website  
 
-![image](https://github.com/chantuff/Personal_Portfolio_Website/assets/78155828/d77a1dbc-b29c-405b-b1af-9eb393b37d4c)
+![image](https://github.com/chantuff/Personal_Portfolio_Website/assets/78155828/bb89ce18-7a52-4e2e-9d97-fd478ea1841f)
 
 ![image](https://github.com/chantuff/Personal_Portfolio_Website/assets/78155828/462da39b-b455-4028-9bd3-7971d08eebb3)
 
