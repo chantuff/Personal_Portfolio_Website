@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
@@ -11,6 +9,7 @@ function App() {
       <div className='container'>
       <div class="vertical-center">
       <h1 className='header'>Chan's Portfolio</h1>
+      
 
       <div className='nav'> 
         <a className='active' href='#home'>Home</a>
@@ -18,8 +17,11 @@ function App() {
         <a href='#resume'>Resume</a>
         <a href='#contact'>Contact</a>
       </div>
+      
       </div> 
+      <img src='web-development-banner.jpg'/>
       </div>
+      
     </>
   )
 }
