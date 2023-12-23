@@ -29,8 +29,8 @@ function Resume() {
     <div class="item5">GitHub</div>
     <div class="item6">Material UI</div>
     <div class="item7">Networking</div>
-    <div class="item8">Cisco VOIP</div>
-    <div class="item9">Active Directory</div>
+    <div class="item8">Cisco Routing and Switching</div>
+    <div class="item9">Windows Active Directory</div>
 	
       </div>
       <hr class="line3" /> 
