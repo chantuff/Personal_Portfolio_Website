@@ -6,11 +6,14 @@ function Nav() {
       <Link to="/">
         <div>Home</div>
       </Link>
-      <Link to="/portfolio">
-        <div>Portfolio</div>
+      <Link to="/projects">
+        <div>Projects</div>
       </Link>
       <Link to="/Resume">
         <div>Resume</div>
+      </Link>
+      <Link to="/Education">
+        <div>Education</div>
       </Link>
       <Link to="/Contact">
         <div>Contact</div>

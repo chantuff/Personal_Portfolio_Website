@@ -2,7 +2,9 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+    <img src="web-development-banner.jpg"></img>
+    </div>
   )
 }
 

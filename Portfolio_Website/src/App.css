@@ -9,15 +9,20 @@
 }
 
 .header {
-  top: 0;
   color: #7e7e7e;
   margin-left: 150px;
+  margin-top: 5px;
 }
 .nav {
-  margin-top: 10px;
-  background-color: #0e5b6e75;
+  top: 0;
+  display: flex;
+  width: 55vh;
+  justify-content: center;
+ 
+  background-color: #1f829b75;
   overflow: hidden;
   border-radius: 10px;
+
 }
 
 .nav a {
@@ -41,4 +46,66 @@ img {
   width: 500px;
   height: 300px;
   border-radius: 10px;
+}
+p {
+  font-size: small;
+  text-align: center;
+  color: #7e7e7e;
+}
+
+.skills {
+font-size: small;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 30px;
+  border-bottom: 10px;
+}
+
+.objective {
+  font-size: small;
+}
+.item1 {
+   grid-column: 1;
+}
+.item2 {
+   grid-column: 2;
+}
+.item3 {
+   grid-column: 3;
+}
+.item4 {
+   grid-column: 1;
+}
+.item5 {
+   grid-column: 2;
+}
+.item6 {
+   grid-column: 3;
+}
+.item7 {
+   grid-column: 1;
+}
+.item8 {
+   grid-column: 2;
+}
+
+.jobs {
+  font-size: small;
+}
+
+.education {
+  font-size: small;
+  margin-top: 20px;
+  
+}
+
+.certs {
+  text-align: center;
+}
+
+
+
+.contact {
+  margin-top: 20px;
+  font-size: small;
 }
