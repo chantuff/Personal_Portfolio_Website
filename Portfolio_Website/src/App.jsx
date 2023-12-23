@@ -1,29 +1,26 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import { Route, Routes } from "react-router-dom";
+import Home from "./pages/Home";
+import Portfolio from "./pages/Portfolio";
+import Resume from "./pages/Resume";
+import Contact from "./pages/Contact";
+import Nav from "./components/Nav";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div className='container'>
-      <div class="vertical-center">
-      <h1 className='header'>Chan's Portfolio</h1>
-      
-
-      <div className='nav'> 
-        <a className='active' href='#home'>Home</a>
-        <a href='#portfolio'>Portfolio</a>
-        <a href='#resume'>Resume</a>
-        <a href='#contact'>Contact</a>
-      </div>
-      
-      </div> 
-      <img src='web-development-banner.jpg'/>
-      </div>
-      
-    </>
-  )
+    
+    <div className="container">
+      <h1 className="header">Chan's Portfolio</h1>
+      <Nav />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      <img src="web-development-banner.jpg"></img>
+    </div>
+  );
 }
 
-export default App
+export default App;
