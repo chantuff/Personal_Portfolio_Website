@@ -96,6 +96,11 @@ font-size: small;
 .education {
   font-size: small;
   margin-top: 20px;
+  margin-top: 20px;
+  border: 5px solid #1f829b75;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
   
 }
 
@@ -123,4 +128,12 @@ font-size: small;
   padding: 50px;
   margin: 0;
   margin-left: -31px;
+}
+
+.social {
+  margin-top: 20px;
+  border: 5px solid #1f829b75;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
 }
