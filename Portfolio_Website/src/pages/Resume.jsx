@@ -18,14 +18,15 @@ function Resume() {
       <hr className="line2" />
       <div className="skills">
         <div className="item1">Technical/Customer Support</div>
-        <div className="item2">HTML</div>
-        <div className="item3">Javascript</div>
-        <div className="item4">Mern Stack</div>
-        <div className="item5">GitHub</div>
-        <div className="item6">Material UI</div>
-        <div className="item7">Networking</div>
-        <div className="item8">Cisco Routing and Switching</div>
-        <div className="item9">Windows Active Directory</div>
+        <div className="item2">Cisco Routing and Switching</div>
+        <div className="item3">Windows Active Directory</div>
+        <div className="item4">HTML</div>
+        <div className="item5">Javascript</div>
+        <div className="item6">Mern Stack</div>
+        <div className="item7">GitHub</div>
+        <div className="item8">Material UI</div>
+        <div className="item9">Networking</div>
+        
       </div>
       <hr className="line3" />
       <div className="jobs">
