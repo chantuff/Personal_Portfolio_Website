@@ -11,7 +11,7 @@ function App() {
   return (
     
     <div className="container">
-      <h1 className="header">Chan's Portfolio</h1>
+      <h1 className="header">Chan Tuff Portfolio</h1>
       <Nav />
       <Routes>
         <Route path="/" element={<Home />} />
