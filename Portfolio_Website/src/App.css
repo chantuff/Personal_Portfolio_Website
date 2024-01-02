@@ -10,13 +10,13 @@
 
 .header {
   color: #7e7e7e;
-  margin-left: 150px;
+  margin-left: 110px;
   margin-top: 5px;
 }
 .nav {
   top: 0;
   display: flex;
-  width: 65vh;
+  width: 72vh;
   justify-content: center;
 
   background-color: #1f829b75;
