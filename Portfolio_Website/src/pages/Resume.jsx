@@ -3,9 +3,7 @@ import React from "react";
 function Resume() {
   return (
     <div className="box">
-      <p>
-        <strong>Chan Tuff</strong>
-      </p>
+     
       <hr className="line" />
       <div className="objective">
         Experienced professional with a proven track record in software
